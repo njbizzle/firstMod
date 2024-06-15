@@ -1,0 +1,4 @@
+/give @p firstmod:example_block
+/help
+/gamerule doDaylightCycle false
+/time set noon

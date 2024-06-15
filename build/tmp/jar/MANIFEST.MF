@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: firstmod
+Specification-Vendor: NateMurphy, TestName
+Specification-Version: 1
+Implementation-Title: FirstMod-1.21
+Implementation-Version: 1.0.0
+Implementation-Vendor: NateMurphy, TestName
+

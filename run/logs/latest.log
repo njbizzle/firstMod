@@ -1,0 +1,110 @@
+[14Jun2024 21:21:21.088] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 17, --assetsDir, /Users/natemurphy/.gradle/caches/forge_gradle/assets, --gameDir, .]
+[14Jun2024 21:21:21.090] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[14Jun2024 21:21:21.091] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 14.2.1
+[14Jun2024 21:21:21.147] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14Jun2024 21:21:21.321] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[14Jun2024 21:21:21.367] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[14Jun2024 21:21:21.377] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[14Jun2024 21:21:21.390] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[14Jun2024 21:21:21.406] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[14Jun2024 21:21:21.424] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[14Jun2024 21:21:21.444] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.1 got version 4.1
+[14Jun2024 21:21:21.668] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///Users/natemurphy/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=CLIENT
+[14Jun2024 21:21:21.799] [EarlyDisplay/INFO] [EARLYDISPLAY/]: GL info: Apple M2 GL version 4.1 Metal - 88, Apple
+[14Jun2024 21:21:22.357] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Jun2024 21:21:23.006] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/natemurphy/.gradle/caches/forge_gradle/assets, --assetIndex, 17]
+[14Jun2024 21:21:24.066] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties]
+[14Jun2024 21:21:24.111] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/Users/natemurphy/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[14Jun2024 21:21:24.465] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 226 Datafixer optimizations took 422 milliseconds
+[14Jun2024 21:21:29.002] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/natemurphy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.8_mapped_official_1.21/forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[14Jun2024 21:21:29.003] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/natemurphy/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.8_mapped_official_1.21/forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[14Jun2024 21:21:29.026] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14Jun2024 21:21:29.034] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14Jun2024 21:21:29.117] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[14Jun2024 21:21:29.445] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.8, for MC 1.21 with MCP 20240613.102039
+[14Jun2024 21:21:29.445] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.8 Initialized
+[14Jun2024 21:21:29.470] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[14Jun2024 21:21:30.622] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [firstmod]
+[14Jun2024 21:21:30.803] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[14Jun2024 21:21:30.994] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[14Jun2024 21:21:31.213] [Worker-Main-1/INFO] [me.njbizzle.firstmod.FirstMod/]: HELLO FROM COMMON SETUP
+[14Jun2024 21:21:31.214] [Worker-Main-1/INFO] [me.njbizzle.firstmod.FirstMod/]: DIRT BLOCK >> minecraft:dirt
+[14Jun2024 21:21:31.215] [Worker-Main-1/INFO] [me.njbizzle.firstmod.FirstMod/]: The magic number is... 42
+[14Jun2024 21:21:31.215] [Worker-Main-1/INFO] [me.njbizzle.firstmod.FirstMod/]: ITEM >> minecraft:iron_ingot
+[14Jun2024 21:21:31.229] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[14Jun2024 21:21:31.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Jun2024 21:21:31.400] [Worker-Main-5/INFO] [me.njbizzle.firstmod.FirstMod/]: HELLO FROM CLIENT SETUP
+[14Jun2024 21:21:31.401] [Worker-Main-5/INFO] [me.njbizzle.firstmod.FirstMod/]: MINECRAFT NAME >> Dev
+[14Jun2024 21:21:31.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.8 Target: 51.0.8
+[14Jun2024 21:21:32.645] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'firstmod:blockstates/example_block.json' missing model for variant: 'firstmod:example_block#'
+[14Jun2024 21:21:32.650] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'firstmod:item/example_block_item' referenced from: firstmod:item/example_block_item: java.io.FileNotFoundException: firstmod:models/item/example_block_item.json
+[14Jun2024 21:21:32.650] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'firstmod:item/example_item' referenced from: firstmod:item/example_item: java.io.FileNotFoundException: firstmod:models/item/example_item.json
+[14Jun2024 21:21:34.783] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[14Jun2024 21:21:34.783] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14Jun2024 21:21:34.868] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Nate Murphy’s AirPods Pro
+[14Jun2024 21:21:34.871] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[14Jun2024 21:21:34.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[14Jun2024 21:21:34.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14Jun2024 21:21:34.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14Jun2024 21:21:34.991] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14Jun2024 21:21:34.992] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14Jun2024 21:21:34.998] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14Jun2024 21:21:34.998] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14Jun2024 21:21:34.998] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14Jun2024 21:21:34.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14Jun2024 21:21:35.114] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14Jun2024 21:21:35.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14Jun2024 21:21:35.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14Jun2024 21:21:35.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14Jun2024 21:21:35.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[14Jun2024 21:21:35.187] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14Jun2024 21:22:10.833] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[14Jun2024 21:22:10.850] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world firstmod:example_block
+[14Jun2024 21:22:10.872] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	firstmod:example_block: 1333
+
+[14Jun2024 21:22:10.872] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 1 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[14Jun2024 21:22:10.873] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    firstmod:example_block
+
+
+[14Jun2024 21:22:10.873] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[14Jun2024 21:22:10.874] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: firstmod:example_block_item Expected: 1333 Got: 1335
+[14Jun2024 21:22:12.020] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[14Jun2024 21:22:12.122] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[14Jun2024 21:22:12.585] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21
+[14Jun2024 21:22:12.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Jun2024 21:22:12.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Jun2024 21:22:12.938] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Jun2024 21:22:12.983] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Jun2024 21:22:12.983] [Server thread/INFO] [me.njbizzle.firstmod.FirstMod/]: HELLO from server starting
+[14Jun2024 21:22:12.994] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 202 ms
+[14Jun2024 21:22:13.074] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[14Jun2024 21:22:13.074] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[14Jun2024 21:22:13.381] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
+[14Jun2024 21:22:13.406] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./saves/TestWorld/stats/380df991-f603-344c-a090-369bad2a924a.json: Don't know what firstmod:example_block is
+[14Jun2024 21:22:13.407] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./saves/TestWorld/stats/380df991-f603-344c-a090-369bad2a924a.json: Don't know what firstmod:example_block is
+[14Jun2024 21:22:13.407] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./saves/TestWorld/stats/380df991-f603-344c-a090-369bad2a924a.json: Don't know what firstmod:example_block is
+[14Jun2024 21:22:13.440] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3258ba82] logged in with entity id 1 at (8.908097660381596, 56.0, 3.9470915283565047)
+[14Jun2024 21:22:13.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14Jun2024 21:22:13.566] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 31 advancements
+[14Jun2024 21:44:08.189] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[14Jun2024 21:44:08.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[14Jun2024 21:44:08.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14Jun2024 21:44:08.221] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[14Jun2024 21:44:08.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Jun2024 21:44:08.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Jun2024 21:44:08.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Jun2024 21:44:08.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TestWorld]'/minecraft:overworld
+[14Jun2024 21:44:08.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TestWorld]'/minecraft:the_nether
+[14Jun2024 21:44:08.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TestWorld]'/minecraft:the_end
+[14Jun2024 21:44:08.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TestWorld): All chunks are saved
+[14Jun2024 21:44:08.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Jun2024 21:44:08.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Jun2024 21:44:08.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
