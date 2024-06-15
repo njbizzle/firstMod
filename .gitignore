@@ -1,0 +1,16 @@
+.DS_Store/
+.idea/
+.changelog.txt
+.CREDITS.txt
+.LICENSE.txt
+
+# from random git ignore
+
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ
+out/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
