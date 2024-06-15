@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstMod-1.21.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstMod-1.21.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstMod-1.21.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstMod-1.21.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/firstMod.iml" filepath="$PROJECT_DIR$/.idea/firstMod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstMod.test.iml" />
     </modules>
   </component>
 </project>
