@@ -1,0 +1,155 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 2024-06-15 23:06:58
+Description: Ticking player
+
+java.lang.IllegalArgumentException: Start element (9223367638808264704) is larger than end element (-9223372036854775808)
+	at SECURE-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.LongAVLTreeSet$Subset.<init>(LongAVLTreeSet.java:1080) ~[fastutil-8.5.12.jar!/:?] {}
+	at SECURE-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.LongAVLTreeSet.subSet(LongAVLTreeSet.java:1047) ~[fastutil-8.5.12.jar!/:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.EntitySectionStorage.forEachAccessibleNonEmptySection(EntitySectionStorage.java:47) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.EntitySectionStorage.getEntities(EntitySectionStorage.java:115) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.LevelEntityGetterAdapter.get(LevelEntityGetterAdapter.java:42) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.Level.getEntities(Level.java:861) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.EntityGetter.getEntityCollisions(EntityGetter.java:62) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.CommonLevelAccessor.getEntityCollisions(CommonLevelAccessor.java:22) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.Entity.collide(Entity.java:889) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.Entity.move(Entity.java:626) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.handleRelativeFrictionAndCalculateMovement(LivingEntity.java:2327) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2267) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.travel(Player.java:1512) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.level.ServerPlayer.travel(ServerPlayer.java:1199) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2762) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.aiStep(Player.java:540) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2431) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.tick(Player.java:277) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:552) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:260) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.network.Connection.tick(Connection.java:406) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:149) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1035) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:911) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:109) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:701) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mods: NONE
+Stacktrace:
+	at SECURE-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.LongAVLTreeSet$Subset.<init>(LongAVLTreeSet.java:1080) ~[fastutil-8.5.12.jar!/:?] {}
+	at SECURE-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.LongAVLTreeSet.subSet(LongAVLTreeSet.java:1047) ~[fastutil-8.5.12.jar!/:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.EntitySectionStorage.forEachAccessibleNonEmptySection(EntitySectionStorage.java:47) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.EntitySectionStorage.getEntities(EntitySectionStorage.java:115) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.entity.LevelEntityGetterAdapter.get(LevelEntityGetterAdapter.java:42) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.Level.getEntities(Level.java:861) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.EntityGetter.getEntityCollisions(EntityGetter.java:62) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.CommonLevelAccessor.getEntityCollisions(CommonLevelAccessor.java:22) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.Entity.collide(Entity.java:889) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.Entity.move(Entity.java:626) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.handleRelativeFrictionAndCalculateMovement(LivingEntity.java:2327) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2267) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.travel(Player.java:1512) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.level.ServerPlayer.travel(ServerPlayer.java:1199) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2762) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.aiStep(Player.java:540) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2431) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.entity.player.Player.tick(Player.java:277) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 1
+	Entity Name: Dev
+	Entity's Exact location: 6.51, 57.00, -42.70
+	Entity's Block location: World: (6,57,-43), Section: (at 6,9,5 in 0,3,-3; chunk contains blocks 0,-64,-48 to 15,319,-33), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Entity's Momentum: -37009030.85, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:552) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:260) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.network.Connection.tick(Connection.java:406) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:149) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1035) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:911) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:109) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:701) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[forge-1.21-51.0.8_mapped_official_1.21-recomp.jar%230!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Mac OS X (aarch64) version 14.2.1
+	Java Version: 21.0.3, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Amazon.com Inc.
+	Memory: 570542016 bytes (544 MiB) / 1337982976 bytes (1276 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 8
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M2
+	Identifier: Apple Inc. Family 0xda33d83d Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Avalanche + Blizzard
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: Apple M2
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MiB): 19456.00
+	Virtual memory used (MiB): 13912.28
+	Swap memory total (MiB): 3072.00
+	Swap memory used (MiB): 1443.13
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 30461.38, total: 414261.63
+	Space in storage for workdir (MiB): available: 30461.38, total: 414261.63
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/1, l='ServerLevel[TestWorld]', x=6.51, y=57.00, z=-42.70]]
+	Active Data Packs: vanilla (incompatible), mod:forge (incompatible), mod:firstmod (incompatible)
+	Available Data Packs: bundle, mod:firstmod (incompatible), mod:forge (incompatible), trade_rebalance, vanilla (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -1679012421157969408
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.2.1
+	ModLauncher launch target: forge_userdev_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@51
+		javafml@51.0.8
+	Mod List: 
+		                                                  |Minecraft                     |minecraft                     |1.21                |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |51.0.8              |DONE      |Manifest: NOSIGNATURE
+		main                                              |First Mod                     |firstmod                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 9ec291db-a37f-4b46-b36a-fa505e79cdc4
+	FML: 0.0
+	Forge: net.minecraftforge:51.0.8
