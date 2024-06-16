@@ -17,3 +17,24 @@
 /give @p minecraft:netherite_sword[minecraft:enchantments={levels:{'minecraft:sharpness':255}}]
 /give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':255}}]
 /give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':10}}]
+/gamemode sur
+/gamemode survival @a
+/effect give @a minecraft:hunger 10
+/effect give @a minecraft:hunger 10 3
+/effect give @a minecraft:hunger 20 100
+/game
+/gamemode creative
+/gamemode survival @a
+/gamemode creative
+/gamemode survival @a
+/effect clear @a minecraft:saturation
+/kill @a
+/effect give @a minecraft:hunger infinite 255
+/effect give @a minecraft:poison 10
+/kill dev
+/effect give dev minecraft:hunger 1 255
+/give dev firstmod:enderite_bar
+/effect give dev minecraft:hunger infinite 255
+/give dev firstmod:enderite_bar
+/give dev firstmod:enderite_bar 64
+/gamemode creative

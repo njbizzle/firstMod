@@ -53,7 +53,9 @@ public class FirstMod
     // Creates a new food item with the id "firstmod:example_id", nutrition 1 and saturation 2
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
             .alwaysEdible().nutrition(1).saturationModifier(2f).build())));
-
+    //enderite---------------------------------------------------------------------------------------------------------
+    public static final RegistryObject<Item> ENDERITE_BAR = ITEMS.register("enderite_bar", () -> new Item(new Item.Properties().stacksTo(64)));
+    //-----------------------------------------------------------------------------------------------------------------
     // Creates a creative tab with the id "firstmod:example_tab" for the example item, that is placed after the combat tab
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
@@ -62,6 +64,7 @@ public class FirstMod
                 (parameters, output) -> {
                     output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                     output.accept(EXAMPLE_BLOCK_ITEM.get());
+                    output.accept(ENDERITE_BAR.get());
                 }
             )
             .build());
