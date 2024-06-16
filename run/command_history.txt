@@ -17,3 +17,15 @@
 /give @p minecraft:netherite_sword[minecraft:enchantments={levels:{'minecraft:sharpness':255}}]
 /give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':255}}]
 /give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':10}}]
+/gamerule doDaylightCycle
+/time set noon
+/gamerule doMobSpawning false
+/gamerule doTraderSpawning false
+/gamerule doWeatherCycle false
+/weather clear
+/teleport Dev 0 100 0
+/teleport Dev 10 56.00 18
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
