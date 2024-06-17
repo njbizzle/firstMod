@@ -1,5 +1,3 @@
-/gamerule doDaylightCycle
-/time set noon
 /gamerule doMobSpawning false
 /gamerule doTraderSpawning false
 /gamerule doWeatherCycle false
@@ -44,6 +42,8 @@
 /gamemode creative
 /gamemode survival
 /give @a minecraft:diamond_pickaxe
+/gamemode creative
+/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
