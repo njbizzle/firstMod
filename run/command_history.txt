@@ -1,20 +1,3 @@
-/gamerule doDaylightCycle false
-/time set noon
-/gamemode spectator
-/gamemode creative
-/give @a minecraft:repeating_command_block
-/give @a minecraft:netherite_axe
-/enchant @a minecraft:sharpness 999
-/enchant @a minecraft:sharpness 251
-/enchant @a minecraft:sharpness 5
-/give @a minecraft:netherite_sword[minecraft:enchantments={id:sharpness, level:999}]
-/give @a minecraft:netherite_sword[minecraft:enchantments:{id:sharpness, level:999}]
-/give @p diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:1000s}]} 1
-/give @p minecraft:netherite_sword[minecraft:enchantments={}]
-/give @p minecraft:netherite_sword[minecraft:enchantments={"minecraft:sharpness":999}]
-/give @p minecraft:netherite_sword[minecraft:enchantments={levels:{'minecraft:sharpness':255}}]
-/give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':255}}]
-/give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':10}}]
 /gamerule doDaylightCycle
 /time set noon
 /gamerule doMobSpawning false
@@ -48,3 +31,20 @@
 /give @p minecraft:bow[enchantments={levels:{"minecraft:power":255}}]
 /summon minecraft:ender_dragon
 /summon minecraft:cow
+/give @a firstmod:enderite_ore
+/give @a firstmod:first_block
+/give @a minecraft:diamond_pickaxe
+/enchant @a minecraft:silk_touch
+/gamemode survival
+/enchant @a minecraft:silk_touch
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @a minecraft:diamond_pickaxe
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
