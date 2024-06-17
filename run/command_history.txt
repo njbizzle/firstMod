@@ -1,5 +1,3 @@
-/give @p firstmod:example_block
-/help
 /gamerule doDaylightCycle false
 /time set noon
 /gamemode spectator
@@ -29,3 +27,24 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/summon minecraft:ender_dragon
+/kill 5bcfe5a7-7588-4ad5-8cf0-6016f613b142
+//give @p minecraft:slime_ball[minecraft:enchantments={levels:{'minecraft:knockback':255}}]
+/give @p minecraft:netherite_swordl[enchantments={levels:{minecraft:sharpness:255}}]
+/give @p minecraft:netherite_swordl[minecraft:enchantments={levels:{"minecraft:sharpness":255}}]
+/give @p minecraft:netherite_sword[enchantments={levels:{minecraft:sharpness:255}}]
+/give @p minecraft:netherite_sword[enchantments={levels:{minecraft:sharpness:254}}]
+/give @p minecraft:netherite_sword[enchantments={levels:{"minecraft:sharpness":255}}]
+/summon minecraft:ender_dragon
+/give @p minecraft:book[enchantments={levels:{"minecraft:power":255}}]
+/give @p minecraft:enchanted_book[enchantments={levels:{"minecraft:power":255}}]
+/give @p minecraft:bow[enchantments={levels:{"minecraft:power":255, "minecraft:quick_charge":255}}]
+/give @p minecraft:bow[enchantments={levels:{"minecraft:power":255}}]
+/summon minecraft:ender_dragon
+/summon minecraft:cow
