@@ -1,4 +1,6 @@
 {
-  "block.firstmod.first_block" : "First Block",
-  "item.firstmod.enderite_bar" : "Enderite Bar"
+  "item.firstmod.enderite_bar" : "Enderite Bar",
+  "item.firstmod.raw_enderite" : "Raw Enderite",
+  "item.firstmod.enderite_plating" : "Enderite Plating",
+  "block.firstmod.enderite_ore" : "Enderite Ore"
 }
