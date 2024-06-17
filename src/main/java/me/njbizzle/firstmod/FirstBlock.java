@@ -26,21 +26,21 @@ public class FirstBlock extends Block
     public FirstBlock()
     {
         super(BlockBehaviour.Properties.of()
-            .speedFactor(1.5f)
-            .jumpFactor(2f)
-            .lightLevel(new ToIntFunction<BlockState>() {
-                @Override
-                public int applyAsInt(BlockState value) {
-                    return value.getValue(LIGHT_UP) ? 10 : 0;
-                }
-            })
-            .sound(SoundType.AMETHYST)
-            .destroyTime(1)
+                .speedFactor(1.5f)
+                .jumpFactor(2f)
+                .lightLevel(new ToIntFunction<BlockState>() {
+                    @Override
+                    public int applyAsInt(BlockState value) {
+                        return value.getValue(LIGHT_UP) ? 10 : 0;
+                    }
+                })
+                .sound(SoundType.AMETHYST)
+                .destroyTime(1)
         );
 
         this.registerDefaultState(
-            this.stateDefinition.any()
-                .setValue(LIGHT_UP, false)
+                this.stateDefinition.any()
+                        .setValue(LIGHT_UP, false)
         );
 
     }
